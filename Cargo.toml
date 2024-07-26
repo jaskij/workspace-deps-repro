@@ -1,0 +1,6 @@
+[workspace]
+members = ["workspace-deps-repro"]
+resolver = "2"
+
+[workspace.dependencies]
+serde = { git = "https://github.com/serde-rs/serde.git", rev = "18dcae0a77632fb4767a420c550cb41991f750b8" }

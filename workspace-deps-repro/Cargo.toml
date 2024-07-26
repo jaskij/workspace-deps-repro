@@ -1,0 +1,8 @@
+[package]
+name = "workspace-deps-repro"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+serde = { workspace = true }
